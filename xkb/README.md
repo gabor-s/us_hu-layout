@@ -1,4 +1,4 @@
-# US layout extended with Hungarian characters
+# US layout extended with Hungarian characters for XKB
 
 The [us_hu](us_hu) file adds Hungarian characters and the Euro sign to the US layout.
 

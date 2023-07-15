@@ -10,7 +10,7 @@ xkb_symbols "hu"  {
     key <AD08> {[ i,            I,          iacute, Iacute ]};  // í
     key <AD09> {[ o,            O,          oacute, Oacute ]};  // ó
     key <AD10> {[ p,            P,          odiaeresis, Odiaeresis ]};  // ö
-    key <AD11> {[ bracketleft,  bracketright,          odoubleacute, Odoubleacute ]};   // ő
+    key <AD11> {[ bracketleft,  braceleft,          odoubleacute, Odoubleacute ]};   // ő
     key <AD07> {[ u,            U,          uacute, Uacute ]};  // ú
     key <AD06> {[ y,            Y,          udiaeresis, Udiaeresis ]};  // ü
     key <AD05> {[ t,            T,          udoubleacute, Udoubleacute ]};  //ű

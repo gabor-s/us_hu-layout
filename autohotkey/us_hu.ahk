@@ -16,3 +16,4 @@
 +>!y::SendText "Ü"
 >!t::SendText "ű"
 +>!t::SendText "Ű"
+>!5::SendText "€"

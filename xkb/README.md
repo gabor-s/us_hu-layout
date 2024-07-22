@@ -27,13 +27,14 @@ The [us_hu](us_hu) file adds Hungarian characters and the Euro sign to the US la
 1. Copy the file [us_hu](us_hu) to `/usr/share/X11/xkb/symbols` folder.
 2. Modify the `/etc/vconsole.conf` and `/etc/X11/xorg.conf.d/00-keyboard.conf` files.
 
+### Caveats
+
+1. I couldn't make the new layout to show up in *YaST Keyboard*.
+2. As soon as you execute *YaST Keyboard* (even if you click *Cancel*) the old layout (*English (US)* in my case)
+will be used.
+
 ## How to make it persistent in Linux Mint Debian Edition (LMDE)
 
 1. Copy the file [us_hu](us_hu) to `/usr/share/X11/xkb/symbols` folder.
 2. Modify the `/etc/default/keyboard` file and set `XKBLAYOUT` to `us_hu`.
 
-## Caveats
-
-1. I couldn't make the new layout to show up in *YaST Keyboard*.
-2. As soon as you execute *YaST Keyboard* (even if you click *Cancel*) the old layout (*English (US)* in my case)
-will be used.

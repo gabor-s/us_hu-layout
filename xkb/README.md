@@ -38,4 +38,5 @@ will be used.
 1. Copy the file [us_hu](us_hu) to `/usr/share/X11/xkb/symbols` folder.
 2. Others should be able to read the file, so the permission should be `-rw-r--r--`
 3. Modify the `/etc/default/keyboard` file and set `XKBLAYOUT` to `us_hu`.
+4. For some reason I had to click on the `Reset to Defauls` button on the `Keyboard` program's `Layout` tab, so the `us_hu` layout showed up on the left pane and everything is working now.
 

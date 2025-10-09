@@ -36,5 +36,6 @@ will be used.
 ## How to make it persistent in Linux Mint Debian Edition (LMDE)
 
 1. Copy the file [us_hu](us_hu) to `/usr/share/X11/xkb/symbols` folder.
-2. Modify the `/etc/default/keyboard` file and set `XKBLAYOUT` to `us_hu`.
+2. Others should be able to read the file, so the permission should be `-rw-r--r--`
+3. Modify the `/etc/default/keyboard` file and set `XKBLAYOUT` to `us_hu`.
 

@@ -40,3 +40,7 @@ will be used.
 3. Modify the `/etc/default/keyboard` file and set `XKBLAYOUT` to `us_hu`.
 4. For some reason I had to click on the `Reset to Defauls` button on the `Keyboard` program's `Layout` tab, so the `us_hu` layout showed up on the left pane and everything is working now.
 
+### Cinnamon 6.6.4
+In Cinnamon 6.6.4 there's no `Reset to Defauls` button on the `Keyboard` program's `Layout` tab, but clicking on the `Add` button in the `Enabled layouts` section and checking the `Include less-common layouts` checkbox the `Hungarian (US)` layout can be selected. I don't where this name (`Hungarian (US)`) is coming from :)
+
+
